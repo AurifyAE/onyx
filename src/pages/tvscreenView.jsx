@@ -245,12 +245,14 @@ function TvScreen() {
           opacity: 0.6,
           zIndex: 0,
           overflow: "hidden",
+          display: "flex",
+          justifyContent: "end",
         }}
       >
         <img
           src={"/images/lines-new.svg"}
           alt=""
-          className="object-contain w-full h-full"
+          className="object-contain  h-full"
         />
       </Box>
 
