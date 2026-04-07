@@ -27,8 +27,8 @@ const NewsTicker = ({ newsItems = [] }) => {
       {/* LEFT BRAND */}
       <Typography
         sx={{
-          color: "#000",
-          background: "#ae9a85",
+          color: "#ffffffcc",
+          background: "#4d3f31",
           fontSize: {
             xs: "12px",
             lg: "1.2vw",

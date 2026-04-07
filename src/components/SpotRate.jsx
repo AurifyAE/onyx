@@ -186,7 +186,7 @@ const SpotRate = () => {
         sx={{
           border: "0.1vw solid #ad8b6b59",
           borderRadius: "2vw",
-          backdropFilter: "blur(0.4vw)",
+          backdropFilter: "blur(0.2vw)",
           background: "#f7e4d300",
           padding: { xs: " 2vw 3vw", sm: " 0.5vw 2vw", md: "1vw 1vw" },
           display: "flex",

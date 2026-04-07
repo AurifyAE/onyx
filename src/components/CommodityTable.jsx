@@ -114,9 +114,9 @@ const CommodityTable = ({ title, items }) => {
           borderRadius: "0.5vw",
           alignItems: "end",
           borderRadius: "0.8vw",
-          background: "#5a4b663d",
+          background: "#66644b3d",
           backdropFilter: "blur(0.3vw)",
-          border: "0.1vw solid #DDFDFF59",
+          border: "0.1vw solid #ffb98959",
         }}
       >
         <Typography
@@ -220,7 +220,7 @@ const CommodityTable = ({ title, items }) => {
               background: "#00000012",
               // borderRadius: "1.5vw",
               borderRadius: ".8vw",
-
+              border: "0.1vw solid #ffb98959",
               cornerShape: "scoop",
             }}
           >

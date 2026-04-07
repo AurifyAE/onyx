@@ -216,25 +216,48 @@ function TvScreen() {
     >
       <Box
         sx={{
-          width: "35%",
+          height: "120%",
           position: "fixed",
           pointerEvents: "none",
           left: 0,
-          bottom: 0,
-          opacity: 0.6,
+          top: 0,
           zIndex: 0,
+          opacity: 0.4,
+          filter: "blur(3px)",
+
           overflow: "hidden",
-          transform: "rotate(270deg)",
         }}
       >
         <img
-          src={"/images/lines.svg"}
+          src={"/images/linesnew.svg"}
           alt=""
-          className="object-contain w-full "
+          className="object-contain h-full "
+        />
+      </Box>
+      <Box
+        sx={{
+          height: "120%",
+          position: "fixed",
+          pointerEvents: "none",
+          right: 0,
+          bottom: 0,
+          zIndex: 0,
+          opacity: 0.6,
+          filter: "blur(2px)",
+          transform: "scale(-1,-1)",
+
+          overflow: "hidden",
+        }}
+      >
+        <img
+          src={"/images/linesnew.svg"}
+          alt=""
+          className="object-contain h-full "
         />
       </Box>
 
-      <Box
+      
+      {/* <Box
         sx={{
           height: "100%",
           width: "40%",
@@ -250,11 +273,11 @@ function TvScreen() {
         }}
       >
         <img
-          src={"/images/lines-new.svg"}
+          src={"/images/ring.png"}
           alt=""
           className="object-contain  h-full"
         />
-      </Box>
+      </Box> */}
 
       {/* Grid */}
 
