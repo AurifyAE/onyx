@@ -106,7 +106,7 @@ const WorldClockHorizontal = () => {
                   lg: "1.2vw",
                 },
                 fontWeight: 500,
-                color: "#FFFFFF",
+                color: "#000",
               }}
             >
               {clock.label}
@@ -118,7 +118,7 @@ const WorldClockHorizontal = () => {
                   xs: "14px",
                   lg: "1.2vw",
                 },
-                color: "#fff",
+                color: "#000",
               }}
             >
               {times[clock.key] || "--:-- AM"}
