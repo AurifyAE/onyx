@@ -290,7 +290,7 @@ function TvScreen() {
           justifyContent: "flex-end",
           alignItems: "center",
           transform: "translateX(-50%)",
-          opacity: ".4",
+          opacity: ".7",
         }}
       >
         <Box
