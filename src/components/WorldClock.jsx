@@ -74,10 +74,12 @@ const WorldClockHorizontal = () => {
             textAlign: "center",
             display: "flex",
             alignItems: "center",
+            flexDirection: "column",
+            
             
             gap: {
               xs: "10px",
-              lg: "1vw",
+              lg: ".2vw",
             },
           }}
         >
@@ -98,9 +100,6 @@ const WorldClockHorizontal = () => {
           <Box>
             <Typography
               sx={{
-                display: "flex",
-                alignItems: "center",
-                gap: "0.5vw",
                 fontSize: {
                   xs: "14px",
                   lg: "1.2vw",
@@ -116,7 +115,7 @@ const WorldClockHorizontal = () => {
               sx={{
                 fontSize: {
                   xs: "14px",
-                  lg: "1.2vw",
+                  lg: "1.4vw",
                 },
                 color: "#000",
               }}

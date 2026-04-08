@@ -222,7 +222,7 @@ function TvScreen() {
           left: 0,
           top: 0,
           zIndex: 0,
-          opacity: 0.4,
+          opacity: 0.6,
           filter: "blur(3px)",
 
           overflow: "hidden",
@@ -256,7 +256,6 @@ function TvScreen() {
         />
       </Box>
 
-      
       {/* <Box
         sx={{
           height: "100%",
@@ -278,6 +277,34 @@ function TvScreen() {
           className="object-contain  h-full"
         />
       </Box> */}
+      <Box
+        sx={{
+          position: "fixed",
+          left: "50%",
+          bottom: "0%",
+          height: "100%", // better than %
+          width: "70%", // better than %
+          pointerEvents: "none",
+          overflow: "hidden",
+          display: "flex",
+          justifyContent: "flex-end",
+          alignItems: "center",
+          transform: "translateX(-50%)",
+          opacity: ".4",
+        }}
+      >
+        <Box
+          component="img"
+          src="/images/logo.gif"
+          alt="background"
+          sx={{
+            height: "100%",
+            width: "100%",
+            objectFit: "contain",
+            filter: "sepia(.5) ",
+          }}
+        />
+      </Box>
 
       {/* Grid */}
 

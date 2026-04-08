@@ -114,9 +114,13 @@ const CommodityTable = ({ title, items }) => {
           borderRadius: "0.5vw",
           alignItems: "end",
           borderRadius: "0.8vw",
-          background: "#66644b3d",
+          background: "#f7e4d300",
           backdropFilter: "blur(0.3vw)",
-          border: "0.1vw solid #ffb98959",
+          border: "0.1vw solid #ad8b6b59",
+          boxShadow: "0px 0px 20px #e7d0b6",
+          cornerShape: "scoop",
+          margin: ".4vw",
+
         }}
       >
         <Typography
@@ -217,11 +221,13 @@ const CommodityTable = ({ title, items }) => {
               height: isMobile ? "35vw" : "18vw",
 
               backdropFilter: "blur(5px)",
-              background: "#00000012",
+              background: "#f7e4d300",
               // borderRadius: "1.5vw",
               borderRadius: ".8vw",
-              border: "0.1vw solid #ffb98959",
+              border: "0.1vw solid #ad8b6b59",
               cornerShape: "scoop",
+              boxShadow: "0px 0px 20px #e7d0b6",
+              margin: ".4vw",
             }}
           >
             «

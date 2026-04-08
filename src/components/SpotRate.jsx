@@ -193,6 +193,7 @@ const SpotRate = () => {
           alignItems: "center",
           flexDirection: "column",
           cornerShape: "scoop",
+          boxShadow: "0px 0px 20px #e7d0b6",
         }}
       >
         <Box

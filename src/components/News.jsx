@@ -20,7 +20,7 @@ const NewsTicker = ({ newsItems = [] }) => {
         display: "flex",
         alignItems: "center",
         overflow: "hidden",
-        borderTop: "1px solid #172540",
+        borderTop: "1px solid #803738",
         backdropFilter: "blur(0.3vw)",
       }}
     >
@@ -28,7 +28,7 @@ const NewsTicker = ({ newsItems = [] }) => {
       <Typography
         sx={{
           color: "#ffffffcc",
-          background: "#4d3f31",
+          background: "#803738",
           fontSize: {
             xs: "12px",
             lg: "1.2vw",
@@ -68,7 +68,7 @@ const NewsTicker = ({ newsItems = [] }) => {
               key={index}
               component="span"
               sx={{
-                color: "#000",
+                color: "#803738",
                 // fontSize: "1.3vw",
                 fontSize: {
                   xs: "12px",
