@@ -29,7 +29,7 @@ const PoweredByAurify = () => {
           fontSize: { xs: "15px", md: "1.2vw" },
 
           fontWeight: 500,
-          color: "#000",
+          color: "#fff",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
