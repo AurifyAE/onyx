@@ -211,7 +211,7 @@ function TvScreen() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        backgroundColor: "#F8E0C4",
+        backgroundColor: "#803738",
       }}
     >
       <Box
@@ -283,7 +283,7 @@ function TvScreen() {
           left: "50%",
           bottom: "0%",
           height: "100%", // better than %
-          width: "70%", // better than %
+          width: "60%", // better than %
           pointerEvents: "none",
           overflow: "hidden",
           display: "flex",
@@ -298,10 +298,10 @@ function TvScreen() {
           src="/images/logo.gif"
           alt="background"
           sx={{
-            height: "100%",
+            // height: "100%",
             width: "100%",
             objectFit: "contain",
-            filter: "sepia(.5) ",
+            // filter: "sepia(.5)  ",
           }}
         />
       </Box>

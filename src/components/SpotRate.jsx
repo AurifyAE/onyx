@@ -94,7 +94,7 @@ const SpotRate = () => {
     return {
       bgColor: "#F0F8FF00",
       border: " 1px solid #FFFFFF",
-      color: "black",
+      color: "#fff",
     };
   };
 
@@ -132,7 +132,7 @@ const SpotRate = () => {
               md: "1.5vw", // laptops
             },
             letterSpacing: "0.25vw",
-            color: "black",
+            color: "#fff",
             mb: "0.5vw",
             textShadow: "0 0 0.8vw rgba(255 255 255 / 0.53)",
           }}
@@ -184,23 +184,24 @@ const SpotRate = () => {
     return (
       <Box
         sx={{
-          border: "0.1vw solid #ad8b6b59",
+          border: "0.1vw solid #e7d0b6",
           borderRadius: "2vw",
           backdropFilter: "blur(0.2vw)",
+ 
           background: "#f7e4d300",
           padding: { xs: " 2vw 3vw", sm: " 0.5vw 2vw", md: "1vw 1vw" },
           display: "flex",
           alignItems: "center",
           flexDirection: "column",
           cornerShape: "scoop",
-          boxShadow: "0px 0px 20px #e7d0b6",
+          boxShadow: "0px 0px 20px #0000008a",
         }}
       >
         <Box
           sx={{
             fontSize: { xs: "14px", md: "1.5vw" },
             fontWeight: 700,
-            color: "black",
+            color: "#fff",
             letterSpacing: "0.1em",
             padding: "0 5vw",
             borderRadius: "30px",
@@ -228,13 +229,14 @@ const SpotRate = () => {
                 lg: "1.5vw", // desktop
                 xl: "1.2vw", // large screens
               },
-              color: "black",
+              color: "#fff",
 
               fontWeight: "700",
             }}
           >
             <PricePulse label="BID" value={data.bid} dir={bidDir} />
-            LOW <span className="hl-value-low text-[#bf0000]">{data.low}</span>
+            HIGH{" "}
+            <span className="hl-value-high text-[#00ff9d]">{data.high}</span>
           </Box>
 
           {/* Price Boxes */}
@@ -247,13 +249,12 @@ const SpotRate = () => {
                 lg: "1.5vw", // desktop
                 xl: "1.2vw", // large screens
               },
-              color: "black",
+              color: "#fff",
               fontWeight: "700",
             }}
           >
             <PricePulse label="ASK" value={data.ask} dir={askDir} />
-            HIGH{" "}
-            <span className="hl-value-high text-[#4dbf00]">{data.high}</span>
+            LOW <span className="hl-value-low text-[#ff3366]">{data.low}</span>
           </Box>
         </Box>
       </Box>
